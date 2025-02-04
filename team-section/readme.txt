@@ -3,7 +3,7 @@ Contributors: bplugins, abuhayat, charlescormier
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, team, members, team members, team area
 Requires at least: 6.2+
-Tested up to: 6.6.2
+Tested up to: 6.7.1
 Stable tag: 1.0.9
 Requires PHP: 7.1
 License: GPLv3 or later
@@ -139,38 +139,4 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Performance Improvements
 
 = 1.0.0 =
-* Initial Release
-
-
-== Upgrade Notice ==
-
-= 1.0.9 - 4 Mar 2024 =
-* Update Icon Library
-
-= 1.0.8 =
-* Add Link in New Tab option
-
-= 1.0.7 =
-* Add member style from the first member
-
-= 1.0.6 =
-* Reduce assets load.
-
-= 1.0.5 =
-* Fix the same value issue
-
-= 1.0.4 =
-* Add translate feature
-
-= 1.0.3 =
-* Fix Image Alignment
-
-= 1.0.2 =
-* Fix HTML Render
-
-= 1.0.1 =
-* Reduce PHP Code.
-* Performance Improvements
-
-= 1.0.0 =
-* Initial Release
+* Initial Release.
