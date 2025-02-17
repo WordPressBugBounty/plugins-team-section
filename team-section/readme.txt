@@ -2,9 +2,9 @@
 Contributors: bplugins, abuhayat, charlescormier
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, team, members, team members, team area
-Requires at least: 6.2+
-Tested up to: 6.7.1
-Stable tag: 1.0.9
+Requires at least: 6.5+
+Tested up to: 6.7.2
+Stable tag: 1.1.0
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -109,6 +109,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 1.1.0 - 17 Feb 2025 =
+* Improve security
 
 = 1.0.9 - 4 Mar 2024 =
 * Update Icon Library
