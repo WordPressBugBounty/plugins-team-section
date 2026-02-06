@@ -2,6 +2,7 @@
   "apiVersion": 2,
   "name": "tsb/team",
   "title": "Team Section",
+  "version": "2.0.0",
   "description": "Showcase team members in various layouts and designs.",
   "category": "widgets",
   "keywords": [
@@ -19,6 +20,9 @@
       "type": "array",
       "default": [
         {
+          "paddingTop": "0px",
+          "userName": "@chriscoyier",
+          "userNameLink": "#",
           "background": {
             "color": "#0000"
           },
@@ -70,11 +74,32 @@
             "type": "object",
             "default": {
               "color": "#fff",
-              "bg": "#4527a4"
+              "bg": "#146EF5"
             }
+          },
+          "icon": "#",
+          "state": {
+            "stateOne": {
+              "icon": "<svg width=\"32\" height=\"32\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\"><path d=\"M6 3v5a6 6 0 0 0 12 0V3\" /><path d=\"M6 3h12\" /><path d=\"M6 8h12\" /><path d=\"M9 21l3-3 3 3\" /></svg>",
+              "value": "500+",
+              "label": "Designs"
+            },
+            "stateTwo": {
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-zap text-emerald-600\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"></polygon></svg>",
+              "value": "500+",
+              "label": "Brands"
+            }
+          },
+          "btn": {
+            "label": "Connect on LinkedIn",
+            "icon": "<svg width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\" /><path d=\"M12 5l7 7-7 7\" /></svg>",
+            "link": "#"
           }
         },
         {
+          "paddingTop": "100px",
+          "userName": "@quezo",
+          "userNameLink": "#",
           "background": {
             "color": "#0000"
           },
@@ -126,11 +151,32 @@
             "type": "object",
             "default": {
               "color": "#fff",
-              "bg": "#4527a4"
+              "bg": "#146EF5"
             }
+          },
+          "icon": "#",
+          "state": {
+            "stateOne": {
+              "icon": "<svg width=\"32\" height=\"32\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\"><path d=\"M6 3v5a6 6 0 0 0 12 0V3\" /><path d=\"M6 3h12\" /><path d=\"M6 8h12\" /><path d=\"M9 21l3-3 3 3\" /></svg>",
+              "value": "500+",
+              "label": "Designs"
+            },
+            "stateTwo": {
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-zap text-emerald-600\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"></polygon></svg>",
+              "value": "500+",
+              "label": "Brands"
+            }
+          },
+          "btn": {
+            "label": "Connect on LinkedIn",
+            "icon": "<svg width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\" /><path d=\"M12 5l7 7-7 7\" /></svg>",
+            "link": "#"
           }
         },
         {
+          "paddingTop": "0px",
+          "userName": "@mariemosley",
+          "userNameLink": "#",
           "background": {
             "color": "#0000"
           },
@@ -182,8 +228,26 @@
             "type": "object",
             "default": {
               "color": "#fff",
-              "bg": "#4527a4"
+              "bg": "#146EF5"
             }
+          },
+          "icon": "#",
+          "state": {
+            "stateOne": {
+              "icon": "<svg width=\"32\" height=\"32\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\"><path d=\"M6 3v5a6 6 0 0 0 12 0V3\" /><path d=\"M6 3h12\" /><path d=\"M6 8h12\" /><path d=\"M9 21l3-3 3 3\" /></svg>",
+              "value": "500+",
+              "label": "Designs"
+            },
+            "stateTwo": {
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-zap text-emerald-600\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"></polygon></svg>",
+              "value": "500+",
+              "label": "Brands"
+            }
+          },
+          "btn": {
+            "label": "Connect on LinkedIn",
+            "icon": "<svg width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14\" /><path d=\"M12 5l7 7-7 7\" /></svg>",
+            "link": "#"
           }
         }
       ]
@@ -242,9 +306,9 @@
       "type": "object",
       "default": {
         "fontSize": {
-          "desktop": 20,
-          "tablet": 18,
-          "mobile": 16
+          "desktop": "20px",
+          "tablet": "18px",
+          "mobile": "16px"
         },
         "fontWeight": 600
       }
@@ -264,9 +328,7 @@
       "type": "object",
       "default": {
         "fontSize": {
-          "desktop": 16,
-          "tablet": 16,
-          "mobile": 16
+          "desktop": "16px"
         }
       }
     },
@@ -296,9 +358,7 @@
       "type": "object",
       "default": {
         "fontSize": {
-          "desktop": 15,
-          "tablet": 15,
-          "mobile": 15
+          "desktop": "15px"
         }
       }
     },
@@ -324,6 +384,209 @@
         "vertical": "10px",
         "horizontal": "10px"
       }
+    },
+    "styles": {
+      "type": "object",
+      "default": {
+        "bg": {},
+        "width": "100%",
+        "alignment": "center",
+        "padding": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "margin": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "teamMember": {
+          "height": {
+            "desktop": "100%",
+            "tablet": "100%",
+            "mobile": "300px"
+          },
+          "padding": {
+            "top": "11px",
+            "left": "11px",
+            "bottom": "11px",
+            "right": "11px"
+          },
+          "shape": {
+            "bg": {
+              "type": "gradient",
+              "gradient": ""
+            }
+          },
+          "bg": {
+            "type": "gradient",
+            "gradient": "linear-gradient(83deg,rgb(255,221,64) 97%,rgba(0,0,0,0) 97%)"
+          },
+          "evenItemBg": {
+            "type": "gradient",
+            "gradient": "linear-gradient(277deg,rgb(255,221,64) 97%,rgba(0,0,0,0) 97%)"
+          },
+          "photo": {
+            "bg": {
+              "type": "gradient",
+              "gradient": "linear-gradient(274deg,rgb(47,49,58) 70%,rgb(255,221,64) 70%)"
+            },
+            "size": "100px",
+            "padding": {
+              "top": "8px",
+              "left": "8px",
+              "bottom": "8px",
+              "right": "8px"
+            },
+            "radius": {
+              "top": "4px",
+              "left": "4px",
+              "bottom": "4px",
+              "right": "4px"
+            },
+            "grayScale": 1,
+            "evenItemPhotoBg": {
+              "type": "gradient",
+              "gradient": "linear-gradient(86deg,rgb(47,49,58) 70%,rgb(255,221,64) 70%)"
+            }
+          },
+          "name": {
+            "colors": {
+              "color": "#ffdd40",
+              "bg": "#282a31"
+            },
+            "padding": {
+              "top": "15px",
+              "right": "23px",
+              "bottom": "15px",
+              "left": "23px"
+            },
+            "radius": {
+              "top": "4px",
+              "right": "4px",
+              "bottom": "4px",
+              "left": "4px"
+            },
+            "typo": {
+              "fontFamily": "Default",
+              "fontCategory": "sans-serif",
+              "fontWeight": null,
+              "isUploadFont": true,
+              "fontSize": {
+                "desktop": "20px",
+                "tablet": "18px",
+                "mobile": "14px"
+              },
+              "fontStyle": "normal",
+              "textTransform": "none",
+              "textDecoration": "none",
+              "lineHeight": "",
+              "letterSpace": "0px"
+            }
+          },
+          "title": {
+            "colors": {
+              "color": "#2f313a",
+              "bg": "#ffdd40"
+            },
+            "padding": {
+              "top": "6px",
+              "right": "12px",
+              "bottom": "8px",
+              "left": "12px"
+            },
+            "radius": {
+              "top": "4px",
+              "right": "4px",
+              "bottom": "4px",
+              "left": "4px"
+            },
+            "typo": {
+              "fontFamily": "Default",
+              "fontCategory": "sans-serif",
+              "fontWeight": 600,
+              "isUploadFont": true,
+              "fontSize": {
+                "desktop": "14px",
+                "tablet": "14px",
+                "mobile": "11px"
+              },
+              "fontStyle": "normal",
+              "textTransform": "none",
+              "textDecoration": "none",
+              "lineHeight": "",
+              "letterSpace": "0px"
+            }
+          },
+          "bio": {
+            "color": "black",
+            "typo": {
+              "fontFamily": "Default",
+              "fontCategory": "sans-serif",
+              "fontWeight": null,
+              "isUploadFont": true,
+              "fontSize": {
+                "desktop": "20px",
+                "tablet": "20px",
+                "mobile": "14px"
+              },
+              "fontStyle": "normal",
+              "textTransform": "none",
+              "textDecoration": "none",
+              "lineHeight": "",
+              "letterSpace": "0px"
+            }
+          },
+          "userName": {
+            "colors": {
+              "color": "#ffdd40",
+              "bg": "#2f313a"
+            },
+            "padding": {
+              "top": "2px",
+              "right": "8px",
+              "bottom": "6px",
+              "left": "8px"
+            },
+            "radius": {
+              "top": "8px",
+              "right": "8px",
+              "bottom": "8px",
+              "left": "8px"
+            },
+            "typo": {
+              "fontFamily": "Default",
+              "fontCategory": "sans-serif",
+              "fontWeight": null,
+              "isUploadFont": true,
+              "fontSize": {
+                "desktop": "20px",
+                "tablet": "20px",
+                "mobile": "14px"
+              },
+              "fontStyle": "normal",
+              "textTransform": "none",
+              "textDecoration": "none",
+              "lineHeight": "",
+              "letterSpace": "0px"
+            }
+          }
+        }
+      }
+    },
+    "options": {
+      "type": "object",
+      "default": {
+        "showUserName": true,
+        "hoverOnScale": true,
+        "isShowWaterMark": true,
+        "waterMark": "TEAM",
+        "isShowShape": true,
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path d='M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z'/></svg>"
+      }
     }
   },
   "supports": {
@@ -343,7 +606,10 @@
       }
     }
   },
-  "editorScript": "file:./index.js",
+  "editorScript": [
+    "file:./index.js",
+    "wp-api"
+  ],
   "editorStyle": "file:./index.css",
   "style": [
     "file:./view.css",

@@ -1,60 +1,81 @@
-=== Team Section block - Showcase team members in various layouts and designs. ===
-Contributors: bplugins, abuhayat, charlescormier
+=== Team Section Block – Showcase Team Members with Layout Options ===
+Contributors: bplugins, abuhayat, shihabshamim
 Donate link: https://www.buymeacoffee.com/abuhayat
-Tags: block, team, members, team members, team area
+Tags: block, team, members, team members, team builder
 Requires at least: 6.5+
-Tested up to: 6.7.2
-Stable tag: 1.1.0
+Tested up to: 6.9
+Stable tag: 2.0.1
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Showcase your team members in various layouts and designs.
+Showcase your team members in various layouts and designs .
 
 == Description ==
+**[Team Section](https://bplugins.com/products/team-section)** | **[Demos](https://bplugins.com/products/team-section/#demos)** | **[Pricing](https://bplugins.com/products/team-section/pricing/)**
+
 
 This block plugin makes the displays fully customizable, so you can create unique team showcases for your site. This is the best WordPress team plugin that displays in a fantastic way of your team members on your site. It is 100% responsive and mobile-friendly, which guarantees the best views across all devices.
 
-= Features =
-* Easy to use
-* It does not require much technical knowledge to use
-* It is lightweight because it relies on JavaScript
+**[Demos](https://bblockswp.com/demo/team-section-all-demo/)**
 
+= Free Features =
+* Universal Shortcodes – Works with Gutenberg and all page builders.
+* Easy to use.
+* Multiple Team Layouts.
+* Fully Responsive Design – Optimized for desktop, tablet, and mobile.
+* Social Media Icons – Add social links for each member.
+* It does not require much technical knowledge to use.
+* It is lightweight because it relies on JavaScript.
+
+= Pro Features =
+* All Free features.
+* Includes 11+ ready-to-use templates.
+* Fully Responsive – Looks great on all devices.
+* Member Styling – Customize photo, name, title, and bio.
+* Typography & Color Controls – Full text and color customization.
+* Photo Effects – Size, filter, and hover effects.
+* Social Icons – Add and style social media links.
+* Element Visibility – Show or hide any member content.
+* Hover Effects & Animations – Smooth interactive effects.
+* Layout Controls – Width, alignment, spacing options.
+* Theme-Specific Features – Shapes, serials, stats, and more.
+* Beginner Friendly – No coding required.
 
 **[Demos](https://bblockswp.com/demo/team-members/)**
 
 
 = How to use =
-- First, install the Team Section plugin
-- Add the Team Section block from the block category called "Widgets" in the Gutenberg editor.
-- You can change block settings from the right-side settings sidebar.
-- Enjoy!
+– First, install the Team Section plugin
+– Add the Team Section block from the block category called "Widgets" in the Gutenberg editor.
+– You can change block settings from the right-side settings sidebar.
+– Enjoy!
 
 * For installation help click on Installation Tab
 
 
 = Feedback =
-- Did you like this plugin? Dislike it? Have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
+– Did you like this plugin? Dislike it? Have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
 
 
-### ⭐ Check out the Parent Plugin of this plugin-
+### Check out the Parent Plugin of this plugin-
 
-🔥 **[B Blocks](https://bblockswp.com)** – Best gutenberg blocks collections for WordPress.
+[**B Blocks**](https://bblockswp.com) – A blocks collection and page building tool for Gutenberg.
 
 
-### ⭐ Check out our other WordPress Plugins-
+### Check out our other WordPress Plugins-
 
-🔥 **[Html5 Audio Player](https://bplugins.com/products/html5-audio-player)** – Best audio player plugin for WordPress.
+[**Html5 Video Player**](https://bplugins.com/products/html5-video-player/) – Display videos as single and playlist in multiple skins.
 
-🔥 **[Html5 Video Player](https://bplugins.com/products/html5-video-player)** – Best video player plugin for WordPress.
+[**PDF Poster**](https://bplugins.com/products/pdf-poster/) – Display/Embed PDF files with different styles.
 
-🔥 **[PDF Poster](https://bplugins.com/products/pdf-poster)** – A fully-featured PDF Viewer Plugin for WordPress.
+[**Html5 Audio Player**](https://bplugins.com/products/html5-audio-player/) – Listen audios with awesome visuals.
 
-🔥 **[Document Embedder](https://bplugins.com/products/document-embedder)** – Best WordPress Document Embedder Plugin.
+[**StreamCast**](https://bplugins.com/products/streamcast-radio-player/) – Customizable radio player with different skins.
 
-🔥 **[3D Viewer](https://bplugins.com/products/3d-viewer)** – Display interactive 3D models on the webs.
+[**3D Viewer**](https://bplugins.com/products/3d-viewer/) – Embed 3D models and 3D products with interaction.
 
-🔥 **[Advanced Post Block](https://bplugins.com/products/advanced-post-block)** – Best Post Display Plugin for WordPress.
+[**Advanced Post Block**](https://bplugins.com/products/advanced-post-block/) – Show posts and custom posts in different layouts.
 
 
 == Installation ==
@@ -100,20 +121,32 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Screenshots ==
 
-1. Team Settings
-2. Default
-3. Horizontal Layout & Theme 1
-4. Theme 2
-5. Theme 3
+
+1. Default
+2. Theme 1
+3. Theme 2
+4. Theme 3
+5. Theme 4
 6. Horizontal Layout & Theme 4
+7. Theme 5
+8. Theme 6
+9. Theme 7
+10. Theme 8
+11. Theme 9
+12. Theme 10
+13. Theme 11
 
 
 == Changelog ==
 
-= 1.1.0 - 17 Feb 2025 =
-* Improve security
+= 2.0.1 – 11 Jan 2026 =
+* Fixed: Button link sanitization issue.
 
-= 1.0.9 - 4 Mar 2024 =
+= 2.0.0 – 17 Dec 2025 =
+* Universal Shortcodes: Compatible with all page builders
+* 11+ ready-made themes.
+
+= 1.0.9 – 4 Mar 2024 =
 * Update Icon Library
 
 = 1.0.8 =
@@ -143,3 +176,10 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 = 1.0.0 =
 * Initial Release.
+
+
+== Upgrade Notice ==
+
+= 1.1.0 =
+* Universal Shortcodes – Works with Gutenberg and all page builders.
+* Added 11+ ready-to-use templates. 
