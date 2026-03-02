@@ -44,20 +44,23 @@ class TSBproAdminMenu {
 
 
 	public function renderDashboardPage(){ ?>
+	
 		<div
-			id='tsm_team_section_block'
-			data-info='<?php echo esc_attr( wp_json_encode( [
-				'version' => TSB_VERSION,
-				'isPremium' => tsbIsPremium(),
-				'hasPro' => TEAM_SECTION_BLOCK_PRO
-			] ) ); ?>'
-		></div>
+           id='tsm_team_section_block'
+            data-info='<?php echo esc_attr( wp_json_encode( [
+                'version' => TSB_VERSION,
+                'isPremium' => tsbIsPremium(),
+                'hasPro' => TEAM_SECTION_BLOCK_PRO,
+                'licenseActiveNonce' => wp_create_nonce('bplLicenseActive'),
+                'nonce' => wp_create_nonce( 'tsbCreatePage' ),
+            ] ) ); ?>'
+        ></div>
 	<?php }
 
 	function adminEnqueueScripts( $hook ) {
 		if( strpos( $hook, 'team-section-dashboard' ) ){
 			wp_enqueue_style( 'tsb-admin-dashboard', TSB_DIR_URL . 'build/admin-dashboard.css', [], TSB_VERSION );
-			wp_enqueue_script( 'tsb-admin-dashboard', TSB_DIR_URL . 'build/admin-dashboard.js', [ 'react', 'react-dom' ], TSB_VERSION, true );
+			wp_enqueue_script( 'tsb-admin-dashboard', TSB_DIR_URL . 'build/admin-dashboard.js', [ 'react', 'react-dom','wp-util' ], TSB_VERSION, true );
 			wp_set_script_translations( 'tsb-admin-dashboard', 'click-to-copy', TSB_DIR_PATH . 'languages' );
 				
 		}

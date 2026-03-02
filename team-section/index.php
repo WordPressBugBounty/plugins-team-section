@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Team Section - Block
  * Description: Makes background element scrolls slower than foreground content.
- * Version: 2.0.1
+ * Version: 2.0.2
  * Author: bPlugins
  * Author URI: http://bplugins.com
  * License: GPLv3
@@ -18,7 +18,7 @@ if ( function_exists( 'ts_fs' ) ) {
     ts_fs()->set_basename( false, __FILE__ );
 } else {
     // Constant
-    define( 'TSB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.1.0' ) );
+    define( 'TSB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '2.0.2' ) );
     define( 'TSB_DIR_URL', plugin_dir_url( __FILE__ ) );
     define( 'TSB_DIR_PATH', plugin_dir_path( __FILE__ ) );
     define( 'TEAM_SECTION_BLOCK_PRO', file_exists( dirname( __FILE__ ) . '/freemius/start.php' ) );
@@ -64,6 +64,9 @@ if ( function_exists( 'ts_fs' ) ) {
 
     require_once TSB_DIR_PATH . '/includes/ShortCode.php';
     require_once TSB_DIR_PATH . '/includes/AdminMenu.php';
+    if ( TEAM_SECTION_BLOCK_PRO ) {
+        require_once TSB_DIR_PATH . 'includes/LicenseActivation.php';
+    }
     if ( !class_exists( 'TSBPlugin' ) ) {
         class TSBPlugin {
             function __construct() {
@@ -71,6 +74,18 @@ if ( function_exists( 'ts_fs' ) ) {
                 add_action( 'init', [$this, 'onInit'] );
                 add_action( 'enqueue_block_editor_assets', [$this, 'tsmEnqueueBlockEditorAssets'] );
                 add_action( 'wp_enqueue_scripts', [$this, 'tsmEnqueueBlockEditorAssets'] );
+                add_filter(
+                    'default_title',
+                    [$this, 'defaultTitle'],
+                    10,
+                    2
+                );
+                add_filter(
+                    'default_content',
+                    [$this, 'defaultContent'],
+                    10,
+                    2
+                );
             }
 
             function enqueueBockAssets() {
@@ -89,6 +104,20 @@ if ( function_exists( 'ts_fs' ) ) {
 
             function onInit() {
                 register_block_type( __DIR__ . '/build' );
+            }
+
+            function defaultTitle( $title, $post ) {
+                if ( 'page' === $post->post_type && isset( $_GET['title'] ) ) {
+                    return sanitize_text_field( wp_unslash( $_GET['title'] ) );
+                }
+                return $title;
+            }
+
+            function defaultContent( $content, $post ) {
+                if ( 'page' === $post->post_type && isset( $_GET['content'] ) ) {
+                    return wp_unslash( $_GET['content'] );
+                }
+                return $content;
             }
 
         }

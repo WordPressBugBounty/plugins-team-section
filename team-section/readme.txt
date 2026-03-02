@@ -1,10 +1,10 @@
 === Team Section Block – Showcase Team Members with Layout Options ===
-Contributors: bplugins, abuhayat, shihabshamim
+Contributors: bplugins, abuhayat, shihabshamim, freemius
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, team, members, team members, team builder
 Requires at least: 6.5+
 Tested up to: 6.9
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
