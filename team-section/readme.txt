@@ -3,21 +3,21 @@ Contributors: bplugins, abuhayat, shihabshamim, freemius
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, team, members, team members, team builder
 Requires at least: 6.5+
-Tested up to: 6.9
-Stable tag: 2.0.2
-Requires PHP: 7.1
+Tested up to: 7.0
+Stable tag: 2.0.3
+Requires PHP: 7.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Showcase your team members in various layouts and designs .
+Showcase your team members in various layouts and designs. 
 
 == Description ==
-**[Team Section](https://bplugins.com/products/team-section)** | **[Demos](https://bplugins.com/products/team-section/#demos)** | **[Pricing](https://bplugins.com/products/team-section/pricing/)**
 
 
 This block plugin makes the displays fully customizable, so you can create unique team showcases for your site. This is the best WordPress team plugin that displays in a fantastic way of your team members on your site. It is 100% responsive and mobile-friendly, which guarantees the best views across all devices.
 
-**[Demos](https://bblockswp.com/demo/team-section-all-demo/)**
+**[Team Section](https://bplugins.com/products/team-section)** | **[Demos](https://bplugins.com/products/team-section/#demos)** | **[Pricing](https://bplugins.com/products/team-section/pricing/)**
+
 
 = Free Features =
 * Universal Shortcodes – Works with Gutenberg and all page builders.
@@ -31,6 +31,8 @@ This block plugin makes the displays fully customizable, so you can create uniqu
 = Pro Features =
 * All Free features.
 * Includes 11+ ready-to-use templates.
+*  Added 1+ new built-in blocks.
+*  Orbit Team – A Unique New Block
 * Fully Responsive – Looks great on all devices.
 * Member Styling – Customize photo, name, title, and bio.
 * Typography & Color Controls – Full text and color customization.
@@ -42,7 +44,7 @@ This block plugin makes the displays fully customizable, so you can create uniqu
 * Theme-Specific Features – Shapes, serials, stats, and more.
 * Beginner Friendly – No coding required.
 
-**[Demos](https://bblockswp.com/demo/team-members/)**
+
 
 
 = How to use =
@@ -60,7 +62,7 @@ This block plugin makes the displays fully customizable, so you can create uniqu
 
 ### Check out the Parent Plugin of this plugin-
 
-[**B Blocks**](https://bblockswp.com) – A blocks collection and page building tool for Gutenberg.
+[**bBlocks**](https://bblockswp.com) – A blocks collection and page building tool for Gutenberg.
 
 
 ### Check out our other WordPress Plugins-
@@ -117,27 +119,33 @@ You can use unlimited times as you want.
 = Where can I get support? =
 
 You can post your questions on the [support forum here](https://wordpress.org/support/plugin/team-section/)
-
-
 == Screenshots ==
 
 
 1. Default
-2. Theme 1
-3. Theme 2
-4. Theme 3
-5. Theme 4
-6. Horizontal Layout & Theme 4
-7. Theme 5
-8. Theme 6
-9. Theme 7
-10. Theme 8
-11. Theme 9
-12. Theme 10
-13. Theme 11
+2. Team Section - Theme 1
+3. Team Section - Theme 2
+4. Team Section - Theme 3
+5. Team Section - Theme 4
+6. Team Section - Horizontal Layout & Theme 4
+7. Team Section - Theme 5
+8. Team Section - Theme 6
+9. Team Section - Theme 7
+10. Team Section - Theme 8
+11. Team Section - Theme 9
+12. Team Section - Theme 10
+13. Team Section - Theme 11
+14.Orbit Team 
+
 
 
 == Changelog ==
+
+= 2.0.3 – 08 July 2026 =
+* Update: Added 7+ New Blocks.
+
+= 2.0.2 – 08 June 2026 =
+* Update: Latest Dashboard Add.
 
 = 2.0.1 – 11 Jan 2026 =
 * Fixed: Button link sanitization issue.
