@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Team Section - Block
  * Description: Makes background element scrolls slower than foreground content.
- * Version: 2.0.3
+ * Version: 2.0.4
  * Author: bPlugins
  * Author URI: http://bplugins.com
  * License: GPLv3
@@ -19,7 +19,7 @@ if ( function_exists( 'ts_fs' ) ) {
 } else {
 
 	// Constant
-	define( 'TSB_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '2.0.3' );
+	define( 'TSB_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '2.0.4' );
 	define( 'TSB_DIR_URL', plugin_dir_url( __FILE__ ) );
 	define( 'TSB_DIR_PATH', plugin_dir_path( __FILE__ ) );
 

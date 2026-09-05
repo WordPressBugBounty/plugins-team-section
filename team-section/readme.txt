@@ -3,8 +3,8 @@ Contributors: bplugins, abuhayat, shihabshamim, freemius
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, team, members, team members, team builder
 Requires at least: 6.5+
-Tested up to: 7.0
-Stable tag: 2.0.3
+Tested up to: 7.1
+Stable tag: 2.0.4
 Requires PHP: 7.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -43,6 +43,9 @@ This block plugin makes the displays fully customizable, so you can create uniqu
 * Layout Controls – Width, alignment, spacing options.
 * Theme-Specific Features – Shapes, serials, stats, and more.
 * Beginner Friendly – No coding required.
+* Added 7+ New Blocks.
+
+
 
 
 
@@ -135,7 +138,14 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 11. Team Section - Theme 9
 12. Team Section - Theme 10
 13. Team Section - Theme 11
-14.Orbit Team 
+14. Orbit Team 
+15. Interactive Team Profiles
+16. Our Team Cards
+17. Team Profile 
+18. Team Card Flip
+19. Team Card Glass Effects
+20. Team Section With Hover Effect
+
 
 
 
