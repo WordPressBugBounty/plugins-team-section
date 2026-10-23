@@ -9,8 +9,8 @@ Requires PHP: 7.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Showcase your team members in various layouts and designs. 
-
+Showcase your team members in various layouts and designs . 
+ 
 == Description ==
 
 
