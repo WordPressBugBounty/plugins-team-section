@@ -4,13 +4,13 @@ Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, team, members, team members, team builder
 Requires at least: 6.5+
 Tested up to: 7.1
-Stable tag: 2.0.4
+Stable tag: 2.0.5
 Requires PHP: 7.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Showcase your team members in various layouts and designs . 
- 
+Showcase your team members in various layouts and designs. 
+
 == Description ==
 
 
@@ -150,6 +150,13 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+
+= 2.0.5 – 26 Oct 2026 =
+* Fixed: Security fix for a reflected XSS issue in the new page default content.
+
+= 2.0.4 – 26 Oct 2026 =
+* New: 7+ New Built-in Blocks Added.
 
 = 2.0.3 – 08 July 2026 =
 * Update: Added 7+ New Blocks.

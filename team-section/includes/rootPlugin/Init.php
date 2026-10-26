@@ -2,6 +2,7 @@
 
 namespace TSB;
 
+if ( ! defined( 'ABSPATH' ) ) { exit; }
 
 class Init {
     function __construct() {
@@ -95,20 +96,35 @@ class Init {
     }
 
   
+    /**
+     * The dashboard "Start Now" link must come from a user who can edit pages and carry a valid nonce.
+     */
+    private function isValidStartRequest() {
+        if ( ! current_user_can( 'edit_pages' ) ) {
+            return false;
+        }
+        $nonce = isset( $_GET['nonce'] ) ? sanitize_text_field( wp_unslash( $_GET['nonce'] ) ) : '';
+        return (bool) wp_verify_nonce( $nonce, 'tsb_admin_nonce' );
+    }
+
     function defaultTitle( $title, $post ) {
-        if ( 'page' === $post->post_type && isset( $_GET['title'] ) ) {
+        if ( 'page' === $post->post_type && isset( $_GET['title'] ) && $this->isValidStartRequest() ) {
             return sanitize_text_field( wp_unslash( $_GET['title'] ) );
         }
         return $title;
     }
 
     /**
-     * Allow ?content= query param to set default post content.
+     * Pre-fill a new page with the Team Section block. Only the exact block markup is accepted,
+     * and our own constant is returned so request input is never echoed into the editor.
      */
     function defaultContent( $content, $post ) {
-        if ( 'page' === $post->post_type && isset( $_GET['content'] ) ) {
-            return wp_unslash( $_GET['content'] );
+        if ( 'page' !== $post->post_type || ! isset( $_GET['content'] ) || ! $this->isValidStartRequest() ) {
+            return $content;
         }
-        return $content;
+        $allowed   = '<!-- wp:tsb/team /-->';
+        $requested = trim( wp_unslash( $_GET['content'] ) );
+
+        return $requested === $allowed ? $allowed : $content;
     }
 }
