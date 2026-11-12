@@ -16,7 +16,9 @@ if( !class_exists( 'TSBPlugin' ) ){
 			require_once TSB_DIR_PATH . 'includes/rootPlugin/CustomColumn.php';
 			require_once TSB_DIR_PATH . 'includes/rootPlugin/BlockCategory.php';
 			require_once TSB_DIR_PATH . 'includes/rootPlugin/RestApi.php';
-		
+			// Team Builder block (tsb/team-members): PHP glue + shortcodes.
+			require_once TSB_DIR_PATH . 'includes/teamBuilder/TeamBuilder.php';
+
 
 			new TSB\Init();
 			new TSB\Enqueue();

@@ -16,7 +16,7 @@ class Init {
 
       
     
-            $template = [ [ 'tsb/team' ] ];
+            $template = [ [ 'tsb/team-section-selector' ] ];
         
 
         register_post_type( 'tsb', [
@@ -86,8 +86,17 @@ class Init {
             }
 
            
-            if ( in_array( $block_name, [ 'team-section'], true ) ) {
+            if ( in_array( $block_name, [ 'team-section', 'parent' ], true ) ) {
                 register_block_type( $block_path );
+                continue;
+            }
+
+            // Team Builder (tsb/team-members): only when its PHP glue is loaded
+            // (it stays off while the standalone Team Builder plugin is active).
+            if ( 'team-builder' === $block_name ) {
+                if ( class_exists( '\TSB\TeamBuilder\Block' ) ) {
+                    register_block_type( $block_path );
+                }
                 continue;
             }
 

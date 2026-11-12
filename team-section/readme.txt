@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, team, members, team members, team builder
 Requires at least: 6.5+
 Tested up to: 7.1
-Stable tag: 2.0.5
+Stable tag: 3.0.0
 Requires PHP: 7.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -18,6 +18,7 @@ This block plugin makes the displays fully customizable, so you can create uniqu
 
 **[Team Section](https://bplugins.com/products/team-section)** | **[Demos](https://bplugins.com/products/team-section/#demos)** | **[Pricing](https://bplugins.com/products/team-section/pricing/)**
 
+  https://youtu.be/miHnBE7enLk
 
 = Free Features =
 * Universal Shortcodes – Works with Gutenberg and all page builders.
@@ -27,6 +28,16 @@ This block plugin makes the displays fully customizable, so you can create uniqu
 * Social Media Icons – Add social links for each member.
 * It does not require much technical knowledge to use.
 * It is lightweight because it relies on JavaScript.
+* Team Builder Block – Build team sections with 43+ ready-made themes.
+* 43+ Themes – Grid, Circle, Horizontal, Flip, Table, List, Special and Sidebar layouts.
+* Member Details – Open member info in a Popup, Side Panel or Inline Drawer.
+* Block Selector – Choose Team Section or Team Builder when adding a new shortcode.
+* Shortcode Copy Box – Copy the [tsb id=X] shortcode with one click.
+* Visual Theme Browser – Browse themes with thumbnails and switch from the block toolbar.
+* Responsive Columns & Gap Controls.
+* Element Visibility Controls – Show or hide member fields per device.
+* Featured Members First, Scroll Animation and Image Filters.
+* Typography & Color Controls.
 
 = Pro Features =
 * All Free features.
@@ -44,6 +55,13 @@ This block plugin makes the displays fully customizable, so you can create uniqu
 * Theme-Specific Features – Shapes, serials, stats, and more.
 * Beginner Friendly – No coding required.
 * Added 7+ New Blocks.
+* 7+ Premium Blocks – Orbit Team, Interactive Team Profiles, Our Team Cards, Team Card Flip, Team Card Glass Effect, Team Profile, Team Section With Hover Effect.
+* Team Builder: 21+ Premium Themes – Grid 9–12, Circle 5–6, Horizontal 6–9, Flip 4–6, List 5–7, Grid Slider, Grid Filter Single, Grid Filter with vCard, Grid Panel Slide, Group Filter.
+* Team Builder: Carousel / Slider View – Autoplay, loop, speed, arrows and dots.
+* Team Builder: Filter View – Group tabs, search, dropdown filters and Ajax filter.
+* Team Builder: Query Controls – Number of members, order by, include and exclude groups.
+* Team Builder: Pagination – Numbered pages, Load More button and infinite scroll.
+* Team Builder: Carousel, Filter & Pagination Style Controls.
 
 
 
@@ -151,6 +169,15 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Changelog ==
 
+
+= 3.0.0 – 11 Nov 2026 =
+* New: 43+ ready-made themes across Grid, Circle, Horizontal, Flip, Table, List, Special and Sidebar layouts.
+* New: Team Builder block — build beautiful team sections with the new themes.
+* New: Member details in a Popup, Side Panel or Inline Drawer.
+* New: Block selector on "Add New Shortcode" — choose Team Section or Team Builder for each shortcode.
+* New: Shortcode copy box for Team Builder shortcodes ([tsb id=X]).
+* New: Visual theme browser with live thumbnails, plus quick theme switching from the block toolbar.
+* New: New members are added with a sample photo, name and title, ready to edit.
 
 = 2.0.5 – 26 Oct 2026 =
 * Fixed: Security fix for a reflected XSS issue in the new page default content.
